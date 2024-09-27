@@ -1,0 +1,95 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(253, 249, 252);
+    margin: 0;
+    padding: 10px;
+}
+.main{
+    display: flex;
+    background-color: rgba(245, 196, 247, 0.63);
+    width:90%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius:10px ;
+    box-shadow: 0 0 100px rgba(241, 241, 129, 0.3)
+ }
+ .left-sect{
+    background-color:rgb(61, 3, 46);
+    color: rgba(231, 224, 224, 0.671);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right:5px solid rgb(104, 14, 77) ;
+
+ }
+ h1{
+    font-size: 24px;
+    margin: 10px 10;
+    margin-bottom: 30px;
+    text-align: center;
+ }
+ h2{
+    font-size: larger;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+ }
+ #certification{
+    font-size: 10px;
+    padding: 2px;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgb(235, 219, 219) ;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+}
+.right-section{
+    margin: 0 auto;
+    padding: 0;
+}
+.personal-info{
+     box-shadow:0 0 150px rgb(230, 45, 183);
+    border-radius:10px;
+    border-color:1px solid rgb(240, 223, 234);
+    text-align: justify;
+}
+#Education{
+    text-transform: capitalize;
+    text-align: left;
+    text-wrap: break-word;
+    box-shadow:0 0 150px rgb(248, 105, 200);
+    border-radius:10px;
+    border-color:1px solid rgb(248, 238, 248);
+
+    
+}
+#workexperience{
+    text-transform: capitalize;
+    text-align: justify;
+    box-shadow:0 0 150px rgb(236, 91, 200);
+    border-radius:10px;
+    border-color:1px solid rgb(250, 235, 250);
+    text-align: justify;
+}
+#button:hover{
+             background-color:rgb(9, 240, 163);}
+.profilepic{
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 505;
+    border: 5px solid rgb(200, 211, 211);
+    margin-bottom: 20px;
+    
+}
+#skills{
+    box-shadow:0 0 150px rgb(207, 75, 174);
+    border-radius:10px;
+    border-color:1px solid rgb(218, 215, 218);
+    text-align: justify;
+}
+.hidden {
+    display: none;
+
+}
